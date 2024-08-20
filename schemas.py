@@ -13,7 +13,7 @@ class Food(BaseModel):
 class Category(BaseModel):
     id: int
     name: str
-    # foods: List[Food] = []
+    foods: List[Food] = []
 
 class CategoryCreate(BaseModel):
     name: str
